@@ -40,10 +40,12 @@ function createColorButtons() {
     colorPickerContainer.appendChild(scrollContainer);
 }
 
-// Function to change the donut color
+// Function to change the donut color and update the input field
 function changeColor(color) {
     const donut = document.getElementById('donutShape');
+    const colorInput = document.querySelector('.color_picked');  // Select the input field
     donut.style.borderTopColor = color;
+    colorInput.value = color;  // Display the hex code in the input field
 }
 
 // Initialize color buttons on page load

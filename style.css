@@ -9,9 +9,26 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
+.heading {
+    width: fit-content;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.color_picked {
+    margin: 10px 70px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    outline: none;
+    width: 120px;
+}
+
 .heading h1 {
     color: #ffffff;
-    margin-bottom: 40px;
     font-weight: bold;
     font-size: 3rem;
 }
