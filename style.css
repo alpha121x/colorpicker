@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #28313b, #485461);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.donut {
+    width: 150px;
+    height: 150px;
+    border: 20px solid transparent;
+    border-top: 20px solid #f3a683; /* Donut color */
+    border-right: 20px solid #778beb;
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}
+
+.heading {
+    position: absolute;
+    top: 15vh;
+    color: #fff;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
