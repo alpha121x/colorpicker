@@ -5,14 +5,14 @@ body {
     height: 100vh;
     margin: 0;
     background: linear-gradient(135deg, #28313b, #485461);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 .donut {
     width: 150px;
     height: 150px;
     border: 20px solid transparent;
-    border-top: 20px solid #f3a683; /* Donut color */
+    border-top: 20px solid #f3a683;
     border-right: 20px solid #778beb;
     border-radius: 50%;
     animation: rotate 2s linear infinite;
