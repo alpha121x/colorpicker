@@ -13,6 +13,7 @@ body {
     color: #ffffff;
     margin-bottom: 40px;
     font-weight: bold;
+    font-size: 3rem;
 }
 
 .donut {
@@ -25,19 +26,19 @@ body {
     margin-bottom: 40px;
 }
 
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
-
 .color-picker {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    background-color: aqua;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.color-picker .scroll-container {
+    display: flex;
+    animation: scroll 10s linear infinite;
 }
 
 .color-btn {
@@ -53,4 +54,22 @@ body {
 
 .color-btn:hover {
     transform: scale(1.1);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
