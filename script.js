@@ -20,7 +20,7 @@ function createColorButtons() {
     colorPickerContainer.innerHTML = '';
 
     // Generate random color buttons and add them to the scroll container
-    const buttonCount = 10; // Total number of unique buttons
+    const buttonCount = 100; // Total number of unique buttons
     for (let i = 0; i < buttonCount; i++) {
         let randomColor = getRandomColor();
         let colorButton = document.createElement('button');
