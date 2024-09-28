@@ -11,7 +11,8 @@ body {
 
 .heading h1 {
     color: #ffffff;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
 }
 
 .donut {
@@ -21,7 +22,7 @@ body {
     border-top: 20px solid #fff;
     border-radius: 50%;
     animation: rotate 3s linear infinite;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 @keyframes rotate {

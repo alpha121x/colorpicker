@@ -16,12 +16,12 @@ function createColorButtons() {
     colorPickerContainer.innerHTML = '';
 
     // Generate and append random color buttons
-    for (let i = 0; i < 10; i++) { // Create 10 buttons with random colors
+    for (let i = 0; i < 10; i++) {
         let randomColor = getRandomColor();
         let colorButton = document.createElement('button');
         colorButton.className = 'color-btn';
         colorButton.style.backgroundColor = randomColor;
-        colorButton.onclick = () => changeColor(randomColor); // Set onclick event to change color
+        colorButton.onclick = () => changeColor(randomColor);
         colorPickerContainer.appendChild(colorButton);
     }
 }
